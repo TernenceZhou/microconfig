@@ -1,30 +1,10 @@
-spring:
-   profiles:
-      active:
-        - dev
----
-server:
-  port: 9876
 
 spring:
   profiles: dev
   application:
-      name: microconfig-test-client
+      name: microconfig-test-client(dev)
 
 eureka:
  client:
   service-url:
-    defaultZone: http://admin:enjoy@localhost:7001/eureka
----
-server:
-  port: 8102
-
-spring:
-  profiles: beta
-  application:
-      name: microconfig-test-client
-
-eureka:
- client:
-  service-url:
-    defaultZone: http://admin:enjoy@localhost:7001/eureka
+    defaultZone: http://admin:enjoy@localhost:7003/eureka

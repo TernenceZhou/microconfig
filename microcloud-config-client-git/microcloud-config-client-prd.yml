@@ -1,0 +1,9 @@
+spring:
+  profiles: prd
+  application:
+      name: microconfig-test-client(prd)
+
+eureka:
+ client:
+  service-url:
+    defaultZone: http://admin:enjoy@localhost:7001/eureka

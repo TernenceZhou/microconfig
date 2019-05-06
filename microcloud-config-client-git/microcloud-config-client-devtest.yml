@@ -1,0 +1,9 @@
+spring:
+  profiles: devtest
+  application:
+      name: microconfig-test-client(devtest)
+
+eureka:
+ client:
+  service-url:
+    defaultZone: http://admin:enjoy@localhost:7001/eureka
