@@ -10,3 +10,7 @@ spring:
     port: 5672
     username: guest
     password: guest
+#以下用于测试cloudBus
+info:
+  app.name: microcloud-config-client-dev
+  company.name: bzng
